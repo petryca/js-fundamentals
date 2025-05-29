@@ -46,7 +46,9 @@ console.log('Updated count:', count);
 * Add a new let variable named `userName` with your name.
 * Log a personalized greeting: 
 
+```js
 console.log(Hello, ${userName}!);
+```
 
 ### 3. Simple DOM Selection & Modification
 1. In the `<body>`, add this paragraph:

@@ -84,10 +84,10 @@ async function loadUsers() {
     	container.innerHTML = '';
 
     	users.forEach(u => {
-      	 const div = document.createElement('div');
-      	 div.innerHTML = `<h3 class="font-semibold">${u.name}</h3><p>${u.email}</p>`;
-     	 div.classList.add('mb-4');
-     	 container.appendChild(div);
+      		const div = document.createElement('div');
+      	 	div.innerHTML = `<h3 class="font-semibold">${u.name}</h3><p>${u.email}</p>`;
+     		div.classList.add('mb-4');
+     		container.appendChild(div);
     	});
 
 	} catch (e) {
@@ -111,7 +111,7 @@ loadUsers();
 <div id="loading" class="text-center text-gray-500">Loading users...</div>
 ```
 
-2. In loadUsers(), show and hide it:
+2. In `loadUsers()`, show and hide it:
 
 ```js
 const loading = document.getElementById('loading');
