@@ -9,7 +9,7 @@
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">	
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,7 +36,7 @@
 
 ⠀**Exercise:**
 * Change the heading color to red by editing the class in DevTools.
-* Add underline to the `<p>` element and observe the effect.
+* Add underline to the <p> element and observe the effect.
 
 ### 3. Playing with Utility Classes
 1. In your code editor, modify the `<div>` container:
