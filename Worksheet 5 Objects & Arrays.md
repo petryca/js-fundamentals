@@ -62,7 +62,7 @@ console.log('After shift:', fruits);
 ```
 
 ⠀**Exercise:**
-* Use pop() to remove the last fruit and log the removed item.
+* Use `pop()` to remove the last fruit and log the removed item.
 * Insert a new fruit at index 1 using `splice()`.
 
 ### 4. Iterating & Rendering Lists
