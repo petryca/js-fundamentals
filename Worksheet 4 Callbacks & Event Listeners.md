@@ -7,8 +7,8 @@
 * Practice using callbacks to update the UI in response to events.
 
 ### 1. What Is a Callback?
-1. In your index.html, verify you have a <script> block before </body>.
-2. Inside the <script>, add:
+1. In your index.html, verify you have a `<script>` block before `</body>`.
+2. Inside the `<script>`, add:
 
 ```js
 function sayHello() {
@@ -33,13 +33,13 @@ setInterval(() => console.log(new Date().toLocaleTimeString()), 2000);
 ```
 
 ### 2. Click Event Listener
-1. In your HTML, add a button inside the container <div>:
+1. In your HTML, add a button inside the container `<div>`
 
 ```html
 <button id="alert-btn" class="mt-6 px-4 py-2 bg-red-500 text-white rounded hover:bg-red-600">Show Alert</button>
 ```
 
-2. In <script>, select the button and attach a click listener:
+2. In `<script>`, select the button and attach a click listener:
 
 ```js
 const alertBtn = document.getElementById('alert-btn');
@@ -56,7 +56,7 @@ alertBtn.addEventListener('click', function() {
 * Change the alert message to include the button’s text: this.textContent (or use event.target.textContent).
 
 ### 3. Other Common Events
-1. Below the button, add an <input> field:
+1. Below the button, add an `<input>` field:
 
 ```html
 <input id="name-input" type="text" placeholder="Type your name" class="mt-4 px-2 py-1 border rounded">
@@ -89,7 +89,7 @@ alertBtn.addEventListener('click', (event) => {
 });
 ```
 
-2. In the Console, inspect properties like event.type, event.target, and event.clientX/Y.
+2. In the Console, inspect properties like event.type, `event.target`, and `event.clientX/Y`.
 
 ⠀**Exercise:**
 * Log the mouse coordinates when clicking on the page 
@@ -99,7 +99,7 @@ document.body.addEventListener('click', …)
 ```
 
 ### 5. Using Callbacks to Update UI
-1. Create a simple counter: In your HTML container <div>, add:
+1. Create a simple counter: In your HTML container `<div>`, add:
 
 ```html
 <div class="mt-6 flex items-center">

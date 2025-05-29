@@ -6,7 +6,7 @@
 
 ### 1. Adding Your Script
 1. Open index.html from Worksheet 1 (or create a new index.html).
-2. Just before the closing </body> tag, insert:
+2. Just before the closing `</body>` tag, insert:
 
 ```html
 <script>
@@ -20,7 +20,7 @@
 * Open DevTools (F12) and check the **Console** for any errors. Ensure your script tag loaded correctly.
 
 ### 2. console.log and Variables
-1. Inside your <script> tags, write:
+1. Inside your `<script>` tags, write:
 
 ```js
 console.log('Hello from JavaScript!');
@@ -49,13 +49,13 @@ console.log('Updated count:', count);
 console.log(Hello, ${userName}!);
 
 ### 3. Simple DOM Selection & Modification
-1. In the <body>, add this paragraph:
+1. In the `<body>`, add this paragraph:
 
 ```js
 <p id="message" class="mt-4 text-gray-800">Original message.</p>
 ```
 
-2. In your <script>, select the element and change its text:
+2. In your `<script>`, select the element and change its text:
 
 ```js
 const messageEl = document.getElementById('message');
@@ -74,7 +74,7 @@ messageEl.classList.add('text-green-600', 'font-semibold');
 * Change the message to something else of your choice.
 
 ### 4. Page Styling via JS
-1. Still in your <script>, write:
+1. Still in your `<script>`, write:
 
 ```js
 const response = prompt('What is your favorite color?');
@@ -88,7 +88,7 @@ if (response) {
 2. Refresh, enter a color in the prompt, and see the alert. Then watch the background color update.
 
 ⠀**Exercise:**
-* Instead of changing background, try modifying the <div> container’s class list (e.g., toggle bg-white to bg-yellow-100).
+* Instead of changing background, try modifying the `<div>` container’s class list (e.g., toggle `bg-white` to `bg-yellow-100`).
 
 ⠀
 #jsfundamentals

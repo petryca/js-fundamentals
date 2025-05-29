@@ -5,9 +5,8 @@
 * Create and work with arrays and common array methods.
 * Iterate over arrays to render content into the DOM.
 
-⠀
 ### 1. Defining & Accessing Objects
-1. In your index.html, inside the <script> tag, add: 
+1. In your index.html, inside the `<script>` tag, add: 
 ```js
 const person = {
 	firstName: 'Alice',
@@ -24,7 +23,6 @@ console.log(`Age: ${person.age}`);
 
 ⠀**Exercise:**
 * Add a new property occupation (e.g., 'Student') to person and log it.
-
 ⠀
 ### 2. Modifying & Destructuring Objects
 1. Below your existing code, update a property: 
@@ -65,7 +63,7 @@ console.log('After shift:', fruits);
 
 ⠀**Exercise:**
 * Use pop() to remove the last fruit and log the removed item.
-* Insert a new fruit at index 1 using splice().
+* Insert a new fruit at index 1 using `splice()`.
 
 ### 4. Iterating & Rendering Lists
 1. In your HTML, add below your button:
@@ -74,7 +72,7 @@ console.log('After shift:', fruits);
 <ul id="fruit-list" class="mt-4 list-disc list-inside text-gray-800"></ul>
 ```
 
-2. In your <script>, select the list and append items:
+2. In your `<script>`, select the list and append items:
 
 ```js
 const listEl = document.getElementById('fruit-list');

@@ -2,12 +2,12 @@
 
 **Objective:**
 * Learn how to make HTTP requests with the Fetch API.
-* Work with Promises (.then() and .catch()).
+* Work with Promises (`.then()` and `.catch()`).
 * Use async/await for cleaner asynchronous code.
 * Handle errors and display fetched data in the DOM.
 
 ### 1. Introduction to Fetch
-1. In your index.html <script> block, add:
+1. In your index.html `<script>` block, add:
 
 ```js
 console.log('Fetching data...');
@@ -19,7 +19,7 @@ fetch('https://jsonplaceholder.typicode.com/users/1')
 2. Save and refresh. In the Console, you’ll see “Fetching data...” then the user object.
 
 ⠀**Exercise:**
-* Change the URL to /posts/1 and log the post object.
+* Change the URL to `/posts/1` and log the post object.
 
 ### 2. Checking Response Status & Error Handling
 1. Improve your fetch call with a status check:
@@ -49,7 +49,7 @@ fetch('https://jsonplaceholder.typicode.com/users/999')
 </div>
 ```
 
-2. In <script>, fetch a list of users and render their names:
+2. In `<script>` fetch a list of users and render their names:
 
 ```js
 const container = document.getElementById('user-container');
@@ -99,7 +99,7 @@ async function loadUsers() {
 loadUsers();
 ```
 
-2. Save and refresh. Observe the same list rendered via async/await.
+2. Save and refresh. Observe the same list rendered via `async/await`.
 
 ⠀**Exercise:**
 * Add a “Reload” button that clears the container and calls loadUsers() again.

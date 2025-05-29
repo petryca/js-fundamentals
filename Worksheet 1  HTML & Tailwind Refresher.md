@@ -31,7 +31,7 @@
 
 ### 2. Inspecting the Page
 1. Right-click on the heading (Hello, Tailwind!) and select **Inspect** (or press F12).
-2. In the **Elements** panel, observe the <h1> element and note the Tailwind classes applied.
+2. In the **Elements** panel, observe the `<h1>` element and note the Tailwind classes applied.
 3. Experiment by toggling or editing classes directly in DevTools—e.g., change text-blue-600 to text-red-500.
 
 ⠀**Exercise:**
@@ -39,19 +39,19 @@
 * Add underline to the <p> element and observe the effect.
 
 ### 3. Playing with Utility Classes
-1. In your code editor, modify the <div> container:
+1. In your code editor, modify the `<div>` container:
    - Add max-w-md to limit its width.
    - Add mx-auto to center it horizontally if needed.
 2. Adjust padding and margin:
    - Change p-8 to p-4 and notice the smaller padding.
-   - Add mt-6 to the <h1> for extra top margin.
+   - Add mt-6 to the `<h1>` for extra top margin.
 
 ⠀**Exercise:**
 * Set the container’s background to a light purple using bg-purple-100.
 * Increase the paragraph’s font size with text-lg.
 
 ### 4. Adding New Elements
-1. Below the existing <p>, insert a button:
+1. Below the existing `<p>` insert a button:
 
 ```html
 <button id="change-text" class="mt-6 px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600">Click Me</button>

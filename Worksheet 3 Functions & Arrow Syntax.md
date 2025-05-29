@@ -6,8 +6,8 @@
 * Practice passing parameters, returning values, and using callbacks.
 
 ### 1. Traditional Function Declaration
-1. Open your index.html and ensure you have a <script> block before </body>.
-2. Inside <script>, add:
+1. Open your index.html and ensure you have a `<script>` block before `</body>`.
+2. Inside `<script>` add:
 
 ```js
 function greet(name) {
@@ -18,7 +18,7 @@ greet('Bob');
 ```
 
 
-3 Save and refresh. Check the Console for the greeting.
+3. Save and refresh. Check the Console for the greeting.
 
 ⠀**Exercise:**
 * Call greet with your own name.
@@ -99,7 +99,7 @@ numbers.forEach(num => console.log('Arrow number:', num));
 <p id="rand-display" class="mt-4 text-xl font-medium"></p>
 ```
 
-2. In your <script>, add:
+2. In your `<script>` add:
 
 ```js
 const btn = document.getElementById('random-btn');

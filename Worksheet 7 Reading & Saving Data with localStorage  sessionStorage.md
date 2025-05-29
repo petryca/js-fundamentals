@@ -10,7 +10,7 @@
 1. Both localStorage and sessionStorage let you store key/value pairs in the browser.
    * localStorage: persists until explicitly cleared (even across browser restarts).
    * sessionStorage: persists for the lifetime of the tab/session.
-2. Open your index.html and ensure you have a <script> section.
+2. Open your index.html and ensure you have a `<script>` section.
 
 ⠀**Exercise:**
 1. In DevTools Console, run `localStorage.setItem('test', '123');` 
@@ -19,7 +19,7 @@
 4. Then `localStorage.removeItem('test');` and check it’s gone
 
 ### 2. Saving Simple Values
-1. In <script>, add:
+1. In `<script>` add:
 
 ```js
 // Save a value
@@ -36,7 +36,7 @@ console.log('Stored bgColor:', stored);
 
 ### 3. Persisting Input Text
 
-1. In your HTML container <div>, add:
+1. In your HTML container `<div>` add:
 
 ```html
 <input id="note-input" type="text" placeholder="Write a note" class="mt-4 p-2 border rounded w-full">
@@ -46,7 +46,7 @@ console.log('Stored bgColor:', stored);
 <p id="show-note" class="mt-4 text-gray-800"></p>
 ```
 
-2. In <script>, write:
+2. In `<script>` write:
 
 ```js
 const input = document.getElementById('note-input');
@@ -92,7 +92,7 @@ console.log('Todos:', storedTodos);
 ```
 
 **Exercise:**
-* Add a new todo object to storedTodos, save it back with setItem, and confirm the updated list persists.
+* Add a new `todo` object to `storedTodos`, save it back with setItem, and confirm the updated list persists.
 
 ### 5. Rendering & Updating List with Persistence
 1. In your HTML div, add an unordered list:
@@ -113,7 +113,7 @@ storedTodos.forEach(item => {
 ```
 
 **Exercise:**
-- Add a button to each <li> that toggles done status in storedTodos, re-saves to storage, and updates the UI.
+- Add a button to each `<li>` that toggles done status in storedTodos, re-saves to storage, and updates the UI.
 
 ### 6. Clearing Storage
 1. To clear all data:
