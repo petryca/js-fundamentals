@@ -22,7 +22,7 @@ greet('Bob');
 
 ⠀**Exercise:**
 * Call greet with your own name.
-* Modify the function to log the greeting in uppercase using .toUpperCase().
+* Modify the function to log the greeting in uppercase using `.toUpperCase()`.
 
 ### 2. Arrow Function Syntax
 1. Rewrite greet as an arrow function:

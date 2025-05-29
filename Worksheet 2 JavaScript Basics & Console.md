@@ -27,7 +27,6 @@ console.log('Hello from JavaScript!');
 ```
 ⠀
 2. Refresh and observe the message in the DevTools Console.
-
 3. Declare variables:
 
 ```js
