@@ -1,5 +1,6 @@
 # Vanilla JavaScript Exercise
 
+
 ## **Objective**
 Create a small “Personal Notes” web page that allows the user to:
 - Enter their name
