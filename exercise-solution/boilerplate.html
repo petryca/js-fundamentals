@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Personal Notes Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 min-h-screen flex items-center justify-center p-4">
+  <div class="bg-white p-6 rounded-lg shadow-md w-full max-w-xl space-y-4">
+
+    <h1 class="text-2xl font-bold text-blue-700">Personal Notes Dashboard</h1>
+
+    <!-- Name Input -->
+    <input id="name-input" type="text" placeholder="Enter your name"
+      class="w-full border p-2 rounded" />
+    <p id="greeting" class="text-lg font-semibold text-gray-700"></p>
+
+    <!-- Note Area -->
+    <textarea id="note-input" placeholder="Write your note here..."
+      class="w-full border p-2 rounded h-24"></textarea>
+    <button id="save-note" class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded disabled:opacity-50">
+      Save Note
+    </button>
+    <p id="saved-note" class="text-gray-800"></p>
+
+    <!-- Time Display -->
+    <button id="show-time" class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded">
+      Show Current Time
+    </button>
+    <p id="time-display" class="text-gray-600 italic"></p>
+
+    <!-- API Profile -->
+    <button id="load-profile" class="bg-purple-500 hover:bg-purple-600 text-white px-4 py-2 rounded">
+      Load Profile
+    </button>
+    <div id="profile" class="text-sm text-gray-800 italic"></div>
+
+    <!-- Clear Button -->
+    <button id="clear-all" class="bg-red-500 hover:bg-red-600 text-white px-4 py-2 rounded">
+      Clear All
+    </button>
+
+  </div>
+
+  <script>
+    // Elements
+    const nameInput = document.getElementById('name-input');
+    const greeting = document.getElementById('greeting');
+    const noteInput = document.getElementById('note-input');
+    const saveNoteBtn = document.getElementById('save-note');
+    const savedNote = document.getElementById('saved-note');
+    const showTimeBtn = document.getElementById('show-time');
+    const timeDisplay = document.getElementById('time-display');
+    const loadProfileBtn = document.getElementById('load-profile');
+    const profileDiv = document.getElementById('profile');
+    const clearBtn = document.getElementById('clear-all');
+  </script>
+</body>
+</html>
