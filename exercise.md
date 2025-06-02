@@ -9,7 +9,6 @@ Create a small “Personal Notes” web page that allows the user to:
 - Fetch and display a user profile from an external API
 - Persist data across sessions using localStorage
 
----
 
 ## Part 1: HTML & Tailwind Setup
 
@@ -24,7 +23,6 @@ Create a small “Personal Notes” web page that allows the user to:
    - A button labeled "Load Profile"
    - A div with id `profile` to show the fetched user profile
 
----
 
 ## Part 2: JavaScript Interactions
 
@@ -49,10 +47,8 @@ Add the following logic in a `<script>` tag before `</body>`:
 - Display their name and email in the `#profile` div.
 - Use `async/await` syntax and show a loading message during the fetch.
 
----
 
 ## Bonus Challenges
 
-- 🟢 Disable the "Save Note" button when the textarea is empty.
-- 🔁 Add a "Clear All" button to remove both the saved name and note from `localStorage`.
-- 🎯 Add an array of preset tasks to `localStorage` and display them in a list (with ✅/❌ status).
+- Disable the "Save Note" button when the textarea is empty.
+- Add a "Clear All" button to remove both the saved name and note from `localStorage`.
